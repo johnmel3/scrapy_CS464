@@ -18,3 +18,6 @@ download the project as a zip file by clicking
 `here <https://github.com/scrapy/quotesbot/archive/master.zip>`_.
 
 .. _quotesbot: https://github.com/scrapy/quotesbot
+
+
+Additional examples from the Scrapy community can be found here: https://scrapy.org/resources/
