@@ -20,4 +20,7 @@ download the project as a zip file by clicking
 .. _quotesbot: https://github.com/scrapy/quotesbot
 
 
-Additional examples from the Scrapy community can be found here: https://scrapy.org/resources/
+For more examples to help you get started with Scrapy,
+including various use cases and advanced techniques, visit the Scrapy Resources page.
+This resource is continuously updated with new and practical examples from the Scrapy
+community.: https://scrapy.org/resources/
