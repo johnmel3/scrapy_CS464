@@ -206,6 +206,19 @@ to do so. This happens because :meth:`~scrapy.Spider.parse` is Scrapy's
 default callback method, which is called for requests without an explicitly
 assigned callback.
 
+Using start_requests vs start_urls
+-----------------------------------
+Use `start_requests` method when you need greater control over the
+initiation of your crawling process. This method is ideal for cases where you need to:
+
+- Customize requests with specific headers, cookies, or meta data.
+- Dynamically generate the start URLs from external sources.
+- Use different HTTP methods (e.g., POST) for your initial requests.
+
+Use `start_urls` when:
+
+- You have a predefined list of URLs to crawl that do not require additional customization.
+
 
 Extracting data
 ---------------
